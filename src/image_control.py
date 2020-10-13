@@ -2,7 +2,6 @@ from src.app import app
 from src.predict import predict
 from flask import request, render_template, redirect
 import os
-import glob
 from werkzeug.utils import secure_filename
 
 @app.route("/")
