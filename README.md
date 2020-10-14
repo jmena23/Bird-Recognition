@@ -5,7 +5,7 @@ PROYECTO FINAL Ironhack - Bootcamp Data Analytics: Bird Recognition
 
 ## Descripción del proyecto
 
-La idea principal de **Bird Recognition** es la de entrenar una red neuronal que reconozca la especie de pájaro que hay en una foto. Adicionalmente y para que sea más interactivo, se ha implementado una API donde puedes subir una foto de una pájaro y te devuelve la especie de pájaro que se encuentra en la imagen.
+La idea principal de **Bird Recognition** es la de entrenar una red neuronal que reconozca la especie de pájaro que hay en una foto. Adicionalmente y para que sea más interactivo, se ha implementado una API donde puedes subir una foto de un pájaro y te devuelve la especie de pájaro que se encuentra en la imagen.
 
 ## Metodología
 
@@ -37,11 +37,13 @@ Los resultados obtenidos se muestran a continuación:
 
 La API ha sido desarrollada con Flask y Python. 
 
-Actualmente, sólo funciona en local. Puedes descargar el código y probarlo en tu equipo corriendo el archivo server.py
+Actualmente, sólo funciona en local. Puedes descargar el código y probarlo en tu equipo corriendo desde la terminal el archivo **server.py**
 
 ## Próximos Pasos ...
 
 - Añadir más especies de pájaros
+
+    - Actualmente están disponibles: carpintero, charrán, colibrí y curruca.
 
 - Mejorar la precisión del modelo aumentando el dataset de imágenes de cada especie
 
