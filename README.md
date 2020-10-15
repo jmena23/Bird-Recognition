@@ -37,7 +37,7 @@ Los resultados obtenidos se muestran a continuación:
 
 La API ha sido desarrollada con Flask y Python. 
 
-Actualmente, sólo funciona en local. Puedes descargar el código y probarlo en tu equipo corriendo desde la terminal el archivo **server.py**
+Actualmente, sólo funciona en local. Puedes descargar el código y probarlo en tu equipo ejecutando desde la terminal el archivo **server.py**
 
 ## Próximos Pasos ...
 
