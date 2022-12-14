@@ -50,7 +50,8 @@ def upload_image():
             prediction = predict(file_image)
             
             return {
-                "Con una alta probabilidad el pajaro que se encuentra en la imagen es un" : prediction.upper()
+                f"Con una alta probabilidad el pajaro que se encuentra en la imagen es un" : prediction.upper(),
+                
             }
     
     return render_template("index.html")
